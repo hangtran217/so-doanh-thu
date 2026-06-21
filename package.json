@@ -1,0 +1,21 @@
+{
+  "name": "so-doanh-thu-tauri-sqlite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "release:windows": "npm run build && tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.5.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
